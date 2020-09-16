@@ -1,7 +1,14 @@
 # CASCADE-study: Analysis Stroke outcomes during the COVID-19 pandemic
 This study is a preliminary analysis from one of CASCADE international centers. This project conducted to determine the effects of COVID-19 on stroke outcomes.
 
-1-Smooth curve to plot the stroke hospitalization rate
-smoothed curve generates trends of total hospitalization rate from Feb 18, 2019 to Jul 18, 2020 in both Ischemic cases and Hemorrhagic stroke for Zanjan Province in Iran.
+Library(ggplot2)
+library(rstan)
+library(brms)
 
-stroke hospitalization trend.R uses this data to generate an trend of stroke hospitalization cases across the Zanjan province.
+1-Smooth curve to plot the stroke hospitalization rate: smoothed curve generates trends of total hospitalization rate from Feb 18, 2019 to Jul 18, 2020 in both Ischemic cases and Hemorrhagic stroke for Zanjan Province in Iran. stroke hospitalization trend.R uses this data to generate an trend of stroke hospitalization cases across the Zanjan province.
+
+2-Density plot to compare the distribution of stroke outcomes before and after COVID_19 outbrake 
+
+3- Correlation Matrix to pairwise comparation of stroke outcomes across time period
+
+4- Stan code to determine the effect of COVID-19 on Stroke outcomses
